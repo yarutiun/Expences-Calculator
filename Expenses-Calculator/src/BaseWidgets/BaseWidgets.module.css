@@ -9,7 +9,7 @@ section div {
     box-sizing: border-box;
     width: 25vw;
     height: 25vh;
-    border: 1px solid black;
+    border: 0.5px solid black;
     border-radius: 5px;
-    background-color: blanchedalmond;
+    background-color: rgb(106, 102, 95);
 }
