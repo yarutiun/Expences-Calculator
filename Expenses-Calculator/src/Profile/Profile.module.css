@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    /* background-color: #f0f0f0; */
+}
+
+/* button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 5px;
+} */
+
+.arrow {
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.arrowBtn {
+    background-color: transparent;
+    margin-left: 1%;
+}
+
+.arrow:hover {
+    transform: scale(1.1);
+}
+
+.profile {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    width: 100%;
+    padding-top: 5%;
+    /* background-color: #f0f0f0; */
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.income {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10%;
+}

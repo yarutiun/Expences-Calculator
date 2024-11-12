@@ -7,7 +7,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-header button img {
+.headButImg{
     background-color: transparent;
     border: none;
     width: 40px;
@@ -15,11 +15,11 @@ header button img {
     cursor: pointer;
 }
 
-header button {
+.headBut {
     background-color: transparent;
     border: none;
 }
 
-header button img:hover {
+.headButImg:hover {
     transform: scale(1.1);
 }

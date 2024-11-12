@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <div>
         <header className={style.mainContainer}>
-          <button><img src={menu} alt='menu'/></button>
+          <button className={style.headBut}><img src={menu} alt='menu' className={style.headButImg}/></button>
           <h1>Where&apos;s the money gone?</h1>
-          <Link to='/profile'><button><img src={user} alt='user'/></button></Link>
+          <Link to='/profile'><button className={style.headBut}><img src={user} alt='user' className={style.headButImg}/></button></Link>
         </header>
     </div>
   )
